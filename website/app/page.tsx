@@ -1,10 +1,18 @@
 import Navbar from '@/components/Navbar'
+import Story from '@/components/Story'
+import Rounds from '@/components/Rounds'
+import Past from '@/components/Past_Iterations'
+import Footer from '@/components/Footer'
 import React from 'react'
 
 const Home = () => {
   return (
-    <div className='landing_container'>
-   
+    <div>
+      <Navbar></Navbar>
+      <Story></Story>
+       <Rounds></Rounds>
+       <Past></Past>
+       <Footer></Footer>
     </div>
   )
 }

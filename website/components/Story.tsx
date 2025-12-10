@@ -9,12 +9,14 @@ export default function StoryPage() {
           
           {/* LEFT COLUMN – HEADING + TEXT */}
           <div className="lg:col-span-7">
-            <h1
-              className="font-jersey text-[#F7A23B] text-8xl font-normal md:text-[5.5rem] leading-none"
-              style={{ lineHeight: 0.9 }}
-            >
-              Story
-            </h1>
+          <h1
+          className="font-jersey text-8xl font-normal md:text-[5.5rem] leading-none bg-linear-to-b from-[#FFCF8D] to-[#C97502]  text-transparent bg-clip-text"
+          style={{ lineHeight: 0.9 }}
+          >
+          Story
+          </h1>
+
+
 
             <div className="mt-6 max-w-xl text-[#2E2B26]">
               <p className="text-lg font-jersey leading-relaxed mb-3">

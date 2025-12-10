@@ -97,29 +97,32 @@ const Rounds = () => {
           <p className="text-left text-[#FFA127] font-jersey font-medium text-4xl">
             Total Prize Pool
           </p>
-          <p className="text-left font-jersey text-8xl font-medium text-[#FFA127] mt-2">
-            NRs. 30,000+
+          <p className="text-left font-jersey text-8xl font-medium mt-2">
+            <span className="text-[#fe9b26]">NRs.</span>{" "}
+            <span className="text-[#ffd90d]">30,000</span>
+            <span className="text-[#fe9b26]">+</span>
           </p>
+
         </div>
 
         {/* Right text column */}
         <div className="flex flex-col justify-center">
-          <p className="text-5xl font-jersey text-[#FFA127]">
+          <p className="text-5xl font-jersey text-[#915531]">
             Form teams and register for the event
           </p>
-          <p className="text-5xl font-jersey text-[#FFA127]">
+          <p className="text-5xl font-jersey text-[#915531]">
             Advance through rounds and win amazing prizes!
           </p>
 
           <ul className="mt-6 space-y-2">
-            <li className="text-6xl font-bold text-[#FFA127] font-jersey flex items-center gap-2">
-              &gt;<span className="text-[#373737]">Winner : 15,000</span>
+            <li className="text-6xl font-bold text-[#884510] font-jersey flex items-center gap-2">
+              &gt;<span className="bg-linear-to-r from-[#FEA52A] to-[#986319] text-transparent bg-clip-text">Winner : 15,000</span>
             </li>
-            <li className="text-6xl font-bold text-[#FFA127] font-jersey flex items-center gap-2">
-              &gt;<span className="text-[#373737]">1st Runner Up : 10,000</span>
+            <li className="text-6xl font-bold text-[#884510] font-jersey flex items-center gap-2">
+              &gt;<span className="bg-linear-to-r from-[#969493] to-[#302F2F] text-transparent bg-clip-text">1st Runner Up : 10,000</span>
             </li>
-            <li className="text-6xl font-bold text-[#FFA127] font-jersey flex items-center gap-2">
-              &gt;<span className="text-[#373737]">2nd Runner Up : 5,000</span>
+            <li className="text-6xl font-bold text-[#884510] font-jersey flex items-center gap-2">
+              &gt;<span className="bg-linear-to-r from-[#9D3E06] to-[#8B8B8A] text-transparent bg-clip-text">2nd Runner Up : 5,000</span>
             </li>
           </ul>
         </div>

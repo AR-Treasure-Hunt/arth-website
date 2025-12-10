@@ -30,7 +30,7 @@ const Rounds = () => {
   ];
 
   return (
-    <main className=" w-full bg-[#FFFAF5] px-8 py-16">
+    <main className="min-w-full bg-[#FFFAF5] px-8 py-16">
       {/* HEADER */}
       <section className="max-w-6xl mx-auto">
         <h1 className="text-8xl font-extralight tracking-tight font-jersey">
@@ -98,7 +98,7 @@ const Rounds = () => {
             Total Prize Pool
           </p>
           <p className="text-left font-jersey text-8xl font-medium text-[#FFA127] mt-2">
-            NRs. <span className='text-[#FFD219]'>30,000+</span>
+            NRs. 30,000+
           </p>
         </div>
 

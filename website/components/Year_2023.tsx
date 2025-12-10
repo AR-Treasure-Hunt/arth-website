@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from "next/image";
 
-const Past_Iterations = () => {
+const Year = () => {
   const rounds = [
     {
       id: 1,
@@ -21,7 +21,7 @@ const Past_Iterations = () => {
       id: 3,
       round: "Round 03",
       title: "AR Round",
-      subtitle: "FINAL",
+      subtitle: "FINALE",
       image: "/vercel.svg",
     },
   ];
@@ -34,10 +34,10 @@ const Past_Iterations = () => {
           PAST ITERATIONS
         </h1>
         <p className="text-8xl font-extralight tracking-tight font-jersey">
-          2024
+          2023
         </p>
         <p className="text-5xl font-extralight text-[#FFA127] font-jersey">
-          (AR Treasure Hunt V3)
+          (AR Treasure Hunt V2)
         </p>
       </section>
 
@@ -46,7 +46,7 @@ const Past_Iterations = () => {
         {rounds.map((r) => (
           <div key={r.id} className="flex flex-col items-center">
             
-            {/* SQUARE IMAGE CARD */}
+            {/* IMAGE CARD */}
             <div
               className="
                 w-full 
@@ -56,7 +56,6 @@ const Past_Iterations = () => {
                 overflow-hidden 
                 relative 
                 bg-[#201020]
-               
                 border-[#B04B18]
                 shadow-[0_6px_0_#6A2E10]
               "
@@ -72,45 +71,40 @@ const Past_Iterations = () => {
                 AR V3
               </span>
 
-              {/* ROUND NUMBER — CENTERED */}
-              <span className="
-                absolute 
-                top-6 
-                left-1/2 
-                -translate-x-1/2
-                text-white 
-                font-jersey 
-                text-3xl 
-                text-center
-              ">
+              {/* ROUND NUMBER */}
+              <span className="absolute top-6 left-1/2 -translate-x-1/2 text-white font-jersey text-3xl text-center">
                 {r.round}
               </span>
 
-              {/* TITLE — CENTERED */}
-              <span className="
-                absolute 
-                top-20 
-                left-1/2 
-                -translate-x-1/2 
-                text-white 
-                font-jersey 
-                text-6xl 
-                leading-none 
-                text-center
-              ">
+              {/* TITLE */}
+              <span className="absolute top-20 left-1/2 -translate-x-1/2 text-white font-jersey text-6xl leading-none text-center">
                 {r.title}
               </span>
             </div>
 
-            {/* SUBTITLE — OUTSIDE BOX */}
+            {/* SUBTITLE */}
             <p className="text-[#000000] font-jersey text-3xl mt-4 tracking-wide">
               {r.subtitle}
             </p>
           </div>
         ))}
       </section>
+
+      {/* 🔴 RED DETAILS SECTION */}
+      <section className="max-w-6xl mx-auto mt-20">
+        <div className="bg-[#9B0E0E] text-[#FFDDBD] p-10 rounded-2xl shadow-lg">
+          <h2 className="text-5xl font-jersey mb-4">Some Details</h2>
+          <p className="text-2xl font-jersey leading-relaxed font-light">
+            AR Treasure Hunt combines the excitement of a traditional treasure hunt with 
+            the immersive experience of Augmented Reality. Participants use their 
+            smartphones or AR devices to find clues, solve puzzles, and navigate 
+            through interactive environments.
+          </p>
+        </div>
+      </section>
+
     </main>
   );
 };
 
-export default Past_Iterations;
+export default Year;

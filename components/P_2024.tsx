@@ -40,7 +40,7 @@ const P_2024 = () => {
           </section>
     
         {/* ROUND CARDS */}
-        <section className="landing_container mx-auto grid grid-cols-3 gap-8 mt-12">
+        <section className="landing_container mx-auto grid grid-cols-3 gap-8 mt-12 pb-30">
           {rounds.map((r) => (
             <div key={r.id} className="flex flex-col items-center">
               {/* Card */}
@@ -74,6 +74,39 @@ const P_2024 = () => {
             </div>
           ))}
       </section>
+
+
+      <section className="max-w-6xl mx-auto flex flex-col sm:flex-row flex-wrap sm:justify-around justify-between gap-8 mt-12 font-jersey font-light">
+        {/* Total Prize Pool Card */}
+        <div className="relative flex flex-col items-center bg-[#8B2E12] rounded-xl pt-6 px-0 mx-0 flex-1 max-w-xs">
+          {/* Image on top */}
+          <img
+            src="/mascot.png"
+            alt="Treasure Chest"
+            className="w-80 h-80  -mt-40"
+          />
+          <div className="text-center relative top-[-20%]">
+            <p className="text-yellow-400 text-3xl">Total Prize Pool</p>
+            <p className="text-white text-6xl">NRS. 50,000+</p>
+          </div>
+        </div>
+
+        {/* Participants Card */}
+        <div className="relative flex flex-col items-center bg-[#004D40] rounded-xl pt-6 px-0 mx-0 flex-1 max-w-xs">
+          {/* Image on top */}
+          <img
+            src="/mascot.png"
+            alt="Participants"
+            className="w-80 h-80 -mt-40"
+          />
+          <div className="text-center relative top-[-20%]">
+            <p className="text-teal-300 text-3xl">Participants</p>
+            <p className="text-white text-6xl">600+</p>
+          </div>
+        </div>
+      </section>
+
+
       <Details></Details>
         </main>
       );

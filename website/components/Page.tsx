@@ -11,7 +11,7 @@ const Page = () => {
           <h1 className="text-7xl md:text-9xl text-[#381b01] font-extrabold leading-none">
             The Biggest <span className="text-amber-900">Treasure Hunt </span>
             <pre className="text-7xl md:text-9xl font-extrabold leading-none font-jersey">
-              of Nepal
+              of <span className="text-red-900">Nepal</span>
             </pre>
           </h1>
 
@@ -35,13 +35,38 @@ const Page = () => {
             alt="Mascot"
             width={300}
             height={300}
-            className="w-[700px] h-[800px] -mt-30  ml-0 md:ml-16"
+            className="w-[450px] h-[500px] -mt-20  ml-90 "
           />
         </div>
       </div>
 
+      {/* CLOUDS BACKGROUND */}
+      <div className="absolute inset-0 w-full h-full pointer-events-none overflow-hidden z-0">
+        <Image
+          src="/cloud.png"
+          alt="cloud"
+          width={450}
+          height={200}
+          className="absolute top-10 left-10 opacity-70 "
+        />
+        <Image
+          src="/cloud.png"
+          alt="cloud"
+          width={300}
+          height={150}
+          className="absolute top-32 right-20 opacity-70 "
+        />
+        <Image
+          src="/cloud.png"
+          alt="cloud"
+          width={350}
+          height={150}
+          className="absolute top-56 left-1/2 -translate-x-1/2 opacity-60 animate-cloudMedium"
+        />
+      </div>
+
       {/* Skyline */}
-      <div className="w-full relative z-10 -mt-30">
+      <div className="w-full relative z-10 -mt-100">
         <Image
           src="/ktm-skyline.png"
           alt="Skyline"
@@ -49,6 +74,86 @@ const Page = () => {
           height={400}
           className="w-full h-auto"
         />
+      </div>
+
+      {/* CHARACTER ROW */}
+      <div className="flex gap-4 pb-10 relative z-30 -mt-24">
+        {/* Character 1 */}
+        <div className="relative">
+          <Image
+            src="/char-1.png"
+            width={80}
+            height={80}
+            alt="Character 1"
+            className="pixelated -mb-3 ml-10 mt-3"
+          />
+        </div>
+
+        {/* Mascot */}
+        <div className="relative">
+          <Image
+            src="/mascot-char.png"
+            width={80}
+            height={80}
+            alt="Mascot"
+            className="pixelated -mb-4 h-20 w-30 mt-9 -ml-8"
+          />
+        </div>
+
+        {/* Character 2 */}
+        <div className="relative">
+          <Image
+            src="/char-2.png"
+            width={80}
+            height={80}
+            alt="Character 2"
+            className="pixelated -mb-1"
+          />
+        </div>
+
+        {/* Character 3 */}
+        <div className="relative">
+          <Image
+            src="/char-3.png"
+            width={80}
+            height={100}
+            alt="Character 3"
+            className="pixelated mb-2"
+          />
+        </div>
+
+        {/* Character 4 */}
+        <div className="relative">
+          <Image
+            src="/char-4.png"
+            width={80}
+            height={80}
+            alt="Character 4"
+            className="pixelated"
+          />
+        </div>
+
+        {/* Character 5 */}
+        <div className="relative">
+          <Image
+            src="/char-5.png"
+            width={80}
+            height={80}
+            alt="Character 5"
+            className="pixelated"
+          />
+        </div>
+
+        {/* Character 6 */}
+        <div className="relative">
+          <Image
+            src="/char-6.png"
+            width={80}
+            height={80}
+            alt="Character 6"
+            className="pixelated"
+          />
+        </div>
       </div>
     </div>
   );

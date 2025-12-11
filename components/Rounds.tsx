@@ -30,9 +30,9 @@ const Rounds = () => {
   ];
 
   return (
-    <main className=" w-full bg-[#FFFAF5] px-8 py-16">
+    <main className="landing_container bg-[#FFFAF5] px-8 py-4 md:py-8 lg:py-16">
       {/* HEADER */}
-      <section className="max-w-6xl mx-auto">
+      <section className="landing_container mx-auto">
         <h1 className="text-8xl font-extralight tracking-tight font-jersey">
           Rounds
         </h1>
@@ -42,7 +42,7 @@ const Rounds = () => {
       </section>
 
       {/* ROUND CARDS */}
-      <section className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+      <section className="landing_container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
         {rounds.map((r) => (
           <div
             key={r.id}
@@ -80,7 +80,7 @@ const Rounds = () => {
       </section>
 
       {/* PRIZE SECTION */}
-      <section className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-[1.2fr_1fr] gap-10 mt-20">
+      <section className="landing_container mx-auto grid grid-cols-1 lg:grid-cols-[1.2fr_1fr] gap-10 pt-25">
         {/* Left Pixel Prize Card */}
         <div className="rounded-2xl bg-[#7E0712] p-10 shadow-lg relative overflow-hidden">
           {/* Pixel sparkles (static example) */}
@@ -92,33 +92,41 @@ const Rounds = () => {
           </span>
 
           {/* Pixel coin art placeholder */}
-          <div className="w-40 h-40 mx-auto mb-6 bg-yellow-400 rounded-lg pixelized shadow-inner"></div>
+          <div className="w-40 h-40 mx-auto mb-6 rounded-lg overflow-hidden pixelized shadow-inner -mt-20">
+            <img
+              src="/next.svg"
+              alt="Pixel Image"
+              className="w-full h-full object-cover"
+            />
+          </div>
 
-          <p className="text-left text-[#FFA127] font-jersey font-medium text-4xl">
+        <div className="absolute bottom-[5%]">
+          <p className="text-left text-[#FFA127] font-jersey font-medium text-xl md:text-4xl">
             Total Prize Pool
           </p>
-          <p className="text-left font-jersey text-8xl font-medium text-[#FFA127] mt-2">
+          <p className="text-left font-jersey text-5xl md:text-8xl font-medium text-[#FFA127]">
             NRs. <span className='text-[#FFD219]'>30,000+</span>
           </p>
+        </div>
         </div>
 
         {/* Right text column */}
         <div className="flex flex-col justify-center">
-          <p className="text-5xl font-jersey text-[#FFA127]">
+          <p className="text-2xl md:text-5xl font-jersey text-[#FFA127]">
             Form teams and register for the event
           </p>
-          <p className="text-5xl font-jersey text-[#FFA127]">
+          <p className="text-2xl md:text-5xl font-jersey text-[#FFA127]">
             Advance through rounds and win amazing prizes!
           </p>
 
           <ul className="mt-6 space-y-2">
-            <li className="text-6xl font-bold text-[#FFA127] font-jersey flex items-center gap-2">
+            <li className="text-3xl md:text-6xl font-bold text-[#FFA127] font-jersey flex items-center gap-2">
               &gt;<span className="text-[#373737]">Winner : 15,000</span>
             </li>
-            <li className="text-6xl font-bold text-[#FFA127] font-jersey flex items-center gap-2">
+            <li className="text-3xl md:text-6xl font-bold text-[#FFA127] font-jersey flex items-center gap-2">
               &gt;<span className="text-[#373737]">1st Runner Up : 10,000</span>
             </li>
-            <li className="text-6xl font-bold text-[#FFA127] font-jersey flex items-center gap-2">
+            <li className="text-3xl md:text-6xl font-bold text-[#FFA127] font-jersey flex items-center gap-2">
               &gt;<span className="text-[#373737]">2nd Runner Up : 5,000</span>
             </li>
           </ul>

@@ -6,7 +6,7 @@ export default function StoryPage() {
     <main className="w-full bg-[#FFFAF5] flex items-center">
       <div className="landing_container mx-auto px-6 py-16 w-full">
         <h1
-              className="font-jersey text-[#F7A23B] text-8xl font-normal md:text-[5.5rem] leading-none"
+              className="font-jersey text-[#F7A23B] text-4xl font-normal md:text-8xl leading-none"
               style={{ lineHeight: 0.9 }}
             >
               Story
@@ -28,8 +28,7 @@ export default function StoryPage() {
 
           {/* RIGHT COLUMN – IMAGE + SPRITE + CLOUD */}
           <div className="lg:col-span-5 relative flex bottom-0 justify-center lg:justify-end">
-            <div className="w-full max-w-[600px] relative bottom-0">
-              
+            <div className="w-full max-w-[600px] lg:max-w-full">
               {/* Background Scene */}
               <div className="overflow-hidden">
                 <Image

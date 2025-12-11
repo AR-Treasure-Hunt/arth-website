@@ -9,7 +9,7 @@ const Past_Iterations = () => {
         <main className="w-full bg-[#FFFAF5] px-8 py-16">
           {/* HEADER */}
           <section className="landing_container mx-auto">
-            <h1 className="text-8xl font-extralight tracking-tight font-jersey">PAST ITERATIONS
+            <h1 className="text-4xl md:text-7xl lg:text-8xl font-extralight tracking-tight font-jersey">PAST ITERATIONS
             </h1>
           </section>
           <P_2024></P_2024>

@@ -75,7 +75,7 @@ const P_2024 = () => {
             </div>
           ))}
       </section>
-      {/* <Prize></Prize> */}
+      <Prize></Prize>
       <Details></Details>
         </main>
       );

@@ -4,6 +4,7 @@ import Rounds from "@/components/Rounds";
 import Past from "@/components/Past_Iterations";
 import Footer from "@/components/Footer";
 import Page from "@/components/Page";
+import FAQs from "@/components/faqs";
 import React from "react";
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <Story></Story>
       <Rounds></Rounds>
       <Past></Past>
+      <FAQs></FAQs>
       <Footer></Footer>
     </div>
   );

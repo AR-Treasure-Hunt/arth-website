@@ -5,7 +5,7 @@ const Rounds = () => {
   const rounds = [
     {
       id: 1,
-      round: "Round 01",
+      round: " 01",
       title: "Khoji",
       subtitle: "City Of Forgotten Memories",
       desc: "Navigate The Ruins Of Ancient Nepal, Collect Memory Shards, And Restore Iconic Landmarks Through AR Puzzles.",
@@ -13,7 +13,7 @@ const Rounds = () => {
     },
     {
       id: 2,
-      round: "Round 02",
+      round: " 02",
       title: "Escape Room",
       subtitle: "The Engineers' Bunker",
       desc: "Enter The Hidden Bunker Where Memory Engineers Once Worked. Solve Intricate Puzzles To Uncover The Truth.",
@@ -21,7 +21,7 @@ const Rounds = () => {
     },
     {
       id: 3,
-      round: "Round 03",
+      round: " 03",
       title: "AR Round",
       subtitle: "Final Confrontation",
       desc: "Ultimate AR Showdown. Use Everything You’ve Learned To Restore The City’s Memories.",
@@ -36,7 +36,7 @@ const Rounds = () => {
         <h1 className="text-8xl font-extralight tracking-tight font-jersey">
           Rounds
         </h1>
-        <p className="text-5xl font-extralight text-[#FFA127] font-jersey">
+        <p className="text-5xl font-extralight text-[#fea52a] font-jersey">
           (AR Treasure Hunt V4)
         </p>
       </section>
@@ -55,11 +55,11 @@ const Rounds = () => {
                 alt={r.title}
                 className="w-full h-full object-cover opacity-60"
               />
-              <span className="absolute top-0 right-2 text-white text-xl font-jersey px-2 py-1 drop-shadow-lg">
+              <span className="absolute top-0 right-2 text-[#bcbabe] text-xl font-jersey px-2 py-1 drop-shadow-lg">
                 AR V4
               </span>
-              <span className="absolute top-4 left-2 text-white font-jersey text-xl px-2 py-1 font-light drop-shadow-lg">
-                {r.round}
+              <span className="absolute top-4 left-2 text-[#bcbabe] font-jersey text-xl px-2 py-1 font-light drop-shadow-lg">
+                Round<span className="text-white">{r.round}</span>
               </span>
               <span className="absolute top-8 left-4 text-white font-jersey text-6xl font-light drop-shadow-lg">
                 {r.title}
@@ -68,10 +68,10 @@ const Rounds = () => {
 
             {/* Bottom Text Section */}
             <div className="bg-[#E9E9E9] p-4 min-h-40 flex flex-col">
-              <p className="text-[#FFA127] font-light text-xl underline font-jersey">
+              <p className="text-[#fea52a] font-light text-xl underline font-jersey">
                 {r.subtitle}
               </p>
-              <p className="text-xl text-[#373737] font-jersey font-base leading-relaxed grow">
+              <p className="text-xl text-[#3e3e3e] font-jersey font-base leading-relaxed grow">
                 {r.desc}
               </p>
             </div>
@@ -82,12 +82,12 @@ const Rounds = () => {
       {/* PRIZE SECTION */}
       <section className="landing_container mx-auto grid grid-cols-1 lg:grid-cols-[1.2fr_1fr] gap-10 pt-25">
         {/* Left Pixel Prize Card */}
-        <div className="rounded-2xl bg-[#7E0712] p-10 shadow-lg relative overflow-hidden">
+        <div className="rounded-2xl bg-[#702412] p-10 shadow-lg relative overflow-hidden">
           {/* Pixel sparkles (static example) */}
-          <span className="absolute top-6 left-8 text-yellow-300 font-jersey text-3xl">
+          <span className="absolute top-6 left-8 text-[#ecc800] font-jersey text-3xl">
             ✦
           </span>
-          <span className="absolute top-10 left-20 text-yellow-300 font-jersey text-xl">
+          <span className="absolute top-10 left-20 text-[#ecc800] font-jersey text-xl">
             ✦
           </span>
 
@@ -101,33 +101,33 @@ const Rounds = () => {
           </div>
 
         <div className="absolute bottom-[5%]">
-          <p className="text-left text-[#FFA127] font-jersey font-medium text-xl md:text-4xl">
+          <p className="text-left text-[#f79f29] font-jersey font-medium text-xl md:text-4xl">
             Total Prize Pool
           </p>
-          <p className="text-left font-jersey text-5xl md:text-8xl font-medium text-[#FFA127]">
-            NRs. <span className='text-[#FFD219]'>30,000+</span>
+          <p className="text-left font-jersey text-5xl md:text-8xl font-medium text-[#f79f29]">
+            NRs. <span className='text-[#FFD219]'>30,000</span>+
           </p>
         </div>
         </div>
 
         {/* Right text column */}
         <div className="flex flex-col justify-center">
-          <p className="text-2xl md:text-5xl font-jersey text-[#FFA127]">
+          <p className="text-2xl md:text-5xl font-jersey text-[#965d3b]">
             Form teams and register for the event
           </p>
-          <p className="text-2xl md:text-5xl font-jersey text-[#FFA127]">
+          <p className="text-2xl md:text-5xl font-jersey text-[#965d3b]">
             Advance through rounds and win amazing prizes!
           </p>
 
           <ul className="mt-6 space-y-2">
-            <li className="text-3xl md:text-6xl font-bold text-[#FFA127] font-jersey flex items-center gap-2">
-              &gt;<span className="text-[#373737]">Winner : 15,000</span>
+            <li className="text-3xl md:text-6xl font-normal text-[#884510] font-jersey flex items-center gap-2">
+              &gt;<span className="text-[#ec9a27]">Winner : 15,000</span>
             </li>
-            <li className="text-3xl md:text-6xl font-bold text-[#FFA127] font-jersey flex items-center gap-2">
-              &gt;<span className="text-[#373737]">1st Runner Up : 10,000</span>
+            <li className="text-3xl md:text-6xl font-normal text-[#884510] font-jersey flex items-center gap-2">
+              &gt;<span className="text-[#8c8b8a]">1st Runner Up : 10,000</span>
             </li>
-            <li className="text-3xl md:text-6xl font-bold text-[#FFA127] font-jersey flex items-center gap-2">
-              &gt;<span className="text-[#373737]">2nd Runner Up : 5,000</span>
+            <li className="text-3xl md:text-6xl font-normal text-[#884510] font-jersey flex items-center gap-2">
+              &gt;<span className="text-[#9b4b1d]">2nd Runner Up : 5,000</span>
             </li>
           </ul>
         </div>

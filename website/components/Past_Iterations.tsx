@@ -6,7 +6,7 @@ import P_2022 from '@/components/P_2022'
 
 const Past_Iterations = () => {
       return (
-        <main className="w-full bg-[#FFFAF5] px-8 py-4 md:py-8 lg:py-16">
+        <main className="w-full bg-[#fffaf5] px-8 py-4 md:py-8 lg:py-16">
           {/* HEADER */}
           <section className="landing_container mx-auto">
             <h1 className="text-4xl md:text-7xl lg:text-8xl font-extralight tracking-tight font-jersey">PAST ITERATIONS

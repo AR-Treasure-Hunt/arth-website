@@ -24,11 +24,12 @@ const FAQs = () => {
   };
 
   return (
-    <section className="landing_container mx-auto mt-10 font-jersey">
+    <main className="w-full bg-[#fffaf5]">
+    <section className="landing_container  mx-auto mt-10 font-jersey">
 
       {/* Title */}
       <h2 className="landing_container text-4xl md:text-7xl lg:text-8xl font-light mb-6 tracking-wide">
-        FAQ<span className="text-[#B04B18]">s</span>
+        FAQ<span className="text-[#884510]">s</span>
       </h2>
 
       {/* FAQ LIST */}
@@ -47,7 +48,7 @@ const FAQs = () => {
                   openIndex === i ? "rotate-180" : "rotate-0"
                 }`}
               >
-                <span className="text-sm md:text-3xl lg:text-4xl">▼</span>
+                <span className="text-sm md:text-3xl lg:text-4xl text-[#884510]">▼</span>
               </span>
             </button>
 
@@ -63,6 +64,7 @@ const FAQs = () => {
         ))}
       </div>
     </section>
+    </main>
   );
 }
 

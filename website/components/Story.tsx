@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function StoryPage() {
   return (
-    <main className="landing_container bg-[#FFFAF5] flex items-center">
+    <main className="w-full bg-[#FFFAF5] flex items-center">
       <div className="landing_container mx-auto px-6 py-4 md:py-8 lg:py-16">
         <h1
               className="font-jersey text-[#F7A23B] text-4xl font-normal md:text-8xl leading-none"

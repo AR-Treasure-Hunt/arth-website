@@ -29,7 +29,7 @@ const P_2024 = () => {
       ];
     
       return (
-        <main className="w-full bg-[#FFFAF5]">
+        <main className="w-full bg-[#fffaf5]">
           {/* HEADER */}
           <section className="landing_container mx-auto pb-2 md:pb-10">
             <p className="text-4xl md:text-7xl lg:text-8xl font-extralight tracking-tight font-jersey">

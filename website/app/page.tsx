@@ -5,6 +5,7 @@ import Past from "@/components/Past_Iterations";
 import Footer from "@/components/Footer";
 import Page from "@/components/Page";
 import FAQs from "@/components/faqs";
+import OT from "@/components/OT"
 import React from "react";
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <Rounds></Rounds>
       <Past></Past>
       <FAQs></FAQs>
+      <OT></OT>
       <Footer></Footer>
     </div>
   );

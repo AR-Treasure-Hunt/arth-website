@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Page = () => {
   return (
-    <div className="relative w-full bg-[#f6efe8] overflow-hidden font-jersey">
+    <div className="relative w-full bg-[#fffaf5] overflow-hidden font-jersey">
       {/* Hero Section */}
       <div className="relative max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start px-8 pt-20">
         {/* Left Text */}

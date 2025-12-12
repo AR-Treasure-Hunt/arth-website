@@ -30,7 +30,7 @@ const Rounds = () => {
   ];
 
   return (
-    <main className="landing_container bg-[#FFFAF5] px-8 py-4 md:py-8 lg:py-16">
+    <main className="w-full bg-[#FFFAF5] px-8 py-4 md:py-8 lg:py-16">
       {/* HEADER */}
       <section className="landing_container mx-auto">
         <h1 className="text-8xl font-extralight tracking-tight font-jersey">

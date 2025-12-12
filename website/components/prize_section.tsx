@@ -17,8 +17,8 @@ const prize_section = () => {
         />
 
         <div className="text-center absolute top-[40%]">
-          <p className="text-yellow-400 text-sm md:text-3xl">Total Prize Pool</p>
-          <p className="text-white text-lg md:text-6xl">NRS. 50,000+</p>
+          <p className="text-[#ed9527] text-sm md:text-3xl">Total Prize Pool</p>
+          <p className="text-[#ed9527] text-lg md:text-6xl">NRS. <span className="text-[#ffd219]">50,000</span>+</p>
         </div>
       </div>
 
@@ -35,8 +35,8 @@ const prize_section = () => {
         />
 
         <div className="text-center absolute top-[40%]">
-          <p className="text-teal-300 text-sm md:text-3xl">Participants</p>
-          <p className="text-white text-lg md:text-6xl">600+</p>
+          <p className="text-[#2eceb7] text-sm md:text-3xl">Participants</p>
+          <p className="text-[#b1fcfa] text-lg md:text-6xl">600+</p>
         </div>
       </div>
 

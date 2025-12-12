@@ -35,7 +35,7 @@ const P_2024 = () => {
             <p className="text-4xl md:text-7xl lg:text-8xl font-extralight tracking-tight font-jersey">
               2024
             </p>
-            <p className="text-xl md:text-4xl lg:text-5xl font-extralight text-[#FFA127] font-jersey">
+            <p className="text-xl md:text-4xl lg:text-5xl font-extralight text-[#fea52a] font-jersey">
               (AR Treasure Hunt V3)
             </p>
           </section>
@@ -54,7 +54,7 @@ const P_2024 = () => {
                     className="w-full h-full object-cover opacity-60"
                   />
                   {/* Round above title (1/3 from top) */}
-                  <span className="absolute top-[27%] left-1/2 transform -translate-x-1/2 text-black font-jersey text-xs md:text-[22px] lg:text-3xl p-0 md:px-2 md:py-1 font-light drop-shadow-lg">
+                  <span className="absolute top-[27%] left-1/2 transform -translate-x-1/2 font-jersey text-xs md:text-[22px] lg:text-3xl p-0 md:px-2 md:py-1 font-light drop-shadow-lg text-[#bcbabe]">
                    Round<span className="text-white">{r.round}</span>
                   </span>
                   {/* Title centered */}
@@ -62,7 +62,7 @@ const P_2024 = () => {
                     {r.title}
                   </span>
                   {/* AR V3 Tag */}
-                  <span className="absolute top-0 md:top-2 right-1 md:right-5 text-black text-xs md:text-[18px] lg:text-2xl font-jersey p-0 md:px-2 md:py-1 drop-shadow-lg">
+                  <span className="absolute top-0 md:top-2 right-1 md:right-5 text-[#bcbabe] text-xs md:text-[18px] lg:text-2xl font-jersey p-0 md:px-2 md:py-1 drop-shadow-lg">
                     AR V3
                   </span>
                 </div>

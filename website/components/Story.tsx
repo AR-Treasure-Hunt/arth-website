@@ -6,7 +6,7 @@ export default function StoryPage() {
     <main className="w-full bg-[#FFFAF5] flex items-center">
       <div className="landing_container mx-auto px-6 py-4 md:py-8 lg:py-16">
         <h1
-              className="font-jersey text-[#F7A23B] text-4xl font-normal md:text-8xl leading-none"
+              className="font-jersey text-[#e29e42] text-4xl font-normal md:text-8xl leading-none"
               style={{ lineHeight: 0.9 }}
             >
               Story
@@ -16,7 +16,7 @@ export default function StoryPage() {
           {/* LEFT COLUMN – HEADING + TEXT */}
           <div className="lg:col-span-7">
 
-            <div className="mt-6 text-[#2E2B26]">
+            <div className="mt-6 text-[#3c280c]">
               <p className="text-lg md:text-xl font-jersey leading-relaxed mb-3">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been.

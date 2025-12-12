@@ -13,11 +13,11 @@ const Footer = () => {
 
         {/* RIGHT SIDE */}
         <div className="text-right mt-0">
-          <p className="text-[#FFA126] text-sm leading-none md:text-3xl lg:text-4xl">A POST EVENT OF</p>
+          <p className="text-[#dd9b18] text-sm leading-none md:text-3xl lg:text-4xl">A POST EVENT OF</p>
           <p className="text-sm leading-none md:text-2xl lg:text-3xl">IT MEET 2025</p>
           <p className="text-[8px] leading-none md:text-sm lg:text-base lg:mt-1">Kathmandu University</p>
 
-          <p className="text-[#FFA126] mt-3 md:mt-5 lg:mt-10 text-sm md:text-4xl lg:text-5xl">RESTORE THE MEMORY</p>
+          <p className="text-[#dd9b18] mt-3 md:mt-5 lg:mt-10 text-sm md:text-4xl lg:text-5xl">RESTORE THE MEMORY</p>
         </div>
       </div>
 
